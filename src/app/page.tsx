@@ -272,7 +272,7 @@ export default function Home() {
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                       O período de revisão da Apple e do Google varia caso a caso (média de 3 – 10 dias úteis). 
                       Eventuais ajustes solicitados pelas plataformas podem estender esse prazo, mas a submissão 
-                      ocorre imediatamente após nosso "OK" interno.
+                      ocorre imediatamente após nosso &quot;OK&quot; interno.
                     </p>
                   </div>
                 </div>
