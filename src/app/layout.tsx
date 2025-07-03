@@ -23,7 +23,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
+      <head>
+        {/* Preload da cena Spline para carregamento antecipado */}
+        <link 
+          rel="preload" 
+          href="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode" 
+          as="fetch" 
+          crossOrigin="anonymous"
+        />
+        {/* Preload do runtime Spline */}
+        <link 
+          rel="preload" 
+          href="https://unpkg.com/@splinetool/runtime" 
+          as="script" 
+          crossOrigin="anonymous"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning={true}
