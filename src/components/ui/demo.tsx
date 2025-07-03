@@ -13,10 +13,10 @@ export function SplineSceneBasic() {
       />
       
       {/* Layout responsivo - vertical em mobile, horizontal em desktop */}
-      <div className="max-w-8xl mx-auto w-full h-full px-4 sm:px-6 md:px-10 lg:px-14 xl:px-18">
+      <div className="max-w-8xl mx-auto w-full h-full">
         <div className="flex flex-col lg:flex-row h-full">
           {/* Conteúdo da esquerda */}
-          <div className="flex-1 py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:pr-16 lg:pr-20 relative z-10 flex flex-col justify-center" style={{ paddingLeft: 'clamp(1rem, 4vw, 50px)' }}>
+          <div className="flex-1 py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-14 xl:px-18 md:pr-16 lg:pr-20 relative z-10 flex flex-col justify-center" style={{ paddingLeft: 'clamp(1rem, 4vw, 50px)' }}>
             <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 leading-tight">
               Inovação que transforma<br />
               ideias em resultados
@@ -26,12 +26,14 @@ export function SplineSceneBasic() {
             </p>
           </div>
 
-          {/* Conteúdo da direita */}
-          <div className="flex-1 relative min-h-[300px] lg:min-h-full">
-            <SplineScene 
-              scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
-              className="w-full h-full"
-            />
+          {/* Conteúdo da direita - robô 3D grudado na parte inferior */}
+          <div className="flex-1 relative h-full flex items-end">
+            <div className="w-full h-full relative">
+              <SplineScene 
+                scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
+                className="absolute inset-0 w-full h-full object-bottom"
+              />
+            </div>
           </div>
         </div>
       </div>

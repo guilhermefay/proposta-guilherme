@@ -255,8 +255,8 @@ export default function Home() {
               
               <div className="space-y-6 md:space-y-8">
                 <div className="flex flex-col sm:flex-row items-start gap-4">
-                  <div className="w-3 h-3 bg-blue-500 rounded-full mt-2 flex-shrink-0 mx-auto sm:mx-0"></div>
-                  <div className="text-center sm:text-left">
+                  <div className="w-3 h-3 bg-blue-500 rounded-full mt-2 flex-shrink-0 sm:mx-0"></div>
+                  <div className="text-left">
                     <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">40 dias corridos</h3>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                       A partir da assinatura (e liberação do sinal) para entregar o aplicativo 100% funcional, 
@@ -266,8 +266,8 @@ export default function Home() {
                 </div>
                 
                 <div className="flex flex-col sm:flex-row items-start gap-4">
-                  <div className="w-3 h-3 bg-green-500 rounded-full mt-2 flex-shrink-0 mx-auto sm:mx-0"></div>
-                  <div className="text-center sm:text-left">
+                  <div className="w-3 h-3 bg-green-500 rounded-full mt-2 flex-shrink-0 sm:mx-0"></div>
+                  <div className="text-left">
                     <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">Aprovação nas lojas</h3>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                       O período de revisão da Apple e do Google varia caso a caso (média de 3 – 10 dias úteis). 
@@ -285,7 +285,7 @@ export default function Home() {
         <section className="bg-white">
           <div className="max-w-8xl mx-auto px-4 sm:px-6 md:px-8">
             <div style={{ paddingLeft: 'clamp(1rem, 4vw, 50px)' }}>
-              <div className="max-w-6xl mx-auto mb-12 md:mb-16 text-center">
+              <div className="max-w-6xl mx-auto mb-12 md:mb-16 text-left lg:text-center">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
                   Preços transparentes e flexíveis
                 </h2>

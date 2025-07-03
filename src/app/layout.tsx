@@ -39,6 +39,12 @@ export default function RootLayout({
           as="script" 
           crossOrigin="anonymous"
         />
+        {/* Preload das imagens de experiência */}
+        <link rel="preload" href="/(1) Guilherme Fay _ LinkedIn/pdc.jpg" as="image" />
+        <link rel="preload" href="/(1) Guilherme Fay _ LinkedIn/hubxp.jpg" as="image" />
+        <link rel="preload" href="/(1) Guilherme Fay _ LinkedIn/afya.jpg" as="image" />
+        <link rel="preload" href="/(1) Guilherme Fay _ LinkedIn/orygen.JPG" as="image" />
+        <link rel="preload" href="/(1) Guilherme Fay _ LinkedIn/alemdamedicina.jpg" as="image" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
