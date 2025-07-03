@@ -375,69 +375,22 @@ export default function Home() {
                 priceLabel="por mês"
                 features={[
                   {
-                    title: "Identidade Visual & Design System",
+                    title: "TUDO DO PROJETO FECHADO +",
                     items: [
-                      "UI/UX com paleta de cores harmonizada (light e dark mode)",
-                      "Tipografia adaptada e ícones personalizados",
-                      "Componentes profissionais e acessibilidade WCAG 2.2",
-                      "Interface responsiva e intuitiva",
-                      "Plataforma completa com uso profissional e moderno",
-                      "Agrega valor e diferenciação de mercado"
+                      "Identidade Visual & Design System completo",
+                      "Sistema de Vendas e Monetização",
+                      "Integração com Players Externos",
+                      "Backend Completo + Notificações Push",
+                      "Expansão & Escalabilidade",
+                      "Publicação nas Lojas de Aplicativos"
                     ]
                   },
                   {
-                    title: "Sistema de Vendas e Monetização",
+                    title: "VANTAGENS EXCLUSIVAS DOS CONTRATOS FIXOS",
                     items: [
-                      "Estrutura para venda contínua de produtos digitais",
-                      "Interface estratégica para induzir novas compras",
-                      "Aumento do lifetime value (LTV) dos usuários"
-                    ]
-                  },
-                  {
-                    title: "Integração completa com Players Externos",
-                    items: [
-                      "Integração nativa com Vturb / Panda / Vimeo / SoundCloud",
-                      "Aplicativo completo na Apple Store e Play Store",
-                      "Acesso via navegador web"
-                    ]
-                  },
-                  {
-                    title: "Backend Completo",
-                    items: [
-                      "Banco de dados e controle de usuários",
-                      "Painel para subir conteúdos com facilidade",
-                      "Sistema para criar produtos e disparar notificações"
-                    ]
-                  },
-                  {
-                    title: "Notificações Push",
-                    items: [
-                      "App sempre na tela do celular dos usuários",
-                      "Mais vendas e tempo de tela"
-                    ]
-                  },
-                  {
-                    title: "Expansão & Escalabilidade",
-                    items: [
-                      "Desenvolvimento pensado para crescer",
-                      "Pronto para soluções IA e comunidade",
-                      "Suporte a novas tecnologias e inovações"
-                    ]
-                  },
-                  {
-                    title: "Publicação nas Lojas de Aplicativos",
-                    items: [
-                      "Configuração e publicação completa nas lojas oficiais",
-                      "Adequação às políticas da Apple e Google",
-                      "Publicação tranquila e aprovação garantida"
-                    ]
-                  },
-                  {
-                    title: "Vantagens Exclusivas",
-                    items: [
-                      "Aplicação avançada de IA",
+                      "Aplicação avançada de soluções com Inteligência Artificial",
                       "Vendas automáticas guiadas por IA",
-                      "Disparos pelo WhatsApp oficial",
+                      "Disparos via API oficial do WhatsApp",
                       "Funis interativos de alta conversão",
                       "Suporte automatizado 24/7",
                       "Automação de processos"
@@ -464,72 +417,25 @@ export default function Home() {
                 title="Fixo + Participação"
                 description="Modelo de sociedade onde eu invisto no seu sucesso. Quanto mais você lucrar, mais eu ganho junto com você."
                 price="R$ 5.000"
-                priceLabel="por mês + % sobre lucro líquido"
+                priceLabel="por mês + 5% sobre lucro líquido"
                 features={[
                   {
-                    title: "Identidade Visual & Design System",
+                    title: "TUDO DO PROJETO FECHADO +",
                     items: [
-                      "UI/UX com paleta de cores harmonizada (light e dark mode)",
-                      "Tipografia adaptada e ícones personalizados",
-                      "Componentes profissionais e acessibilidade WCAG 2.2",
-                      "Interface responsiva e intuitiva",
-                      "Plataforma completa com uso profissional e moderno",
-                      "Agrega valor e diferenciação de mercado"
+                      "Identidade Visual & Design System completo",
+                      "Sistema de Vendas e Monetização",
+                      "Integração com Players Externos",
+                      "Backend Completo + Notificações Push",
+                      "Expansão & Escalabilidade",
+                      "Publicação nas Lojas de Aplicativos"
                     ]
                   },
                   {
-                    title: "Sistema de Vendas e Monetização",
+                    title: "VANTAGENS EXCLUSIVAS DOS CONTRATOS FIXOS",
                     items: [
-                      "Estrutura para venda contínua de produtos digitais",
-                      "Interface estratégica para induzir novas compras",
-                      "Aumento do lifetime value (LTV) dos usuários"
-                    ]
-                  },
-                  {
-                    title: "Integração completa com Players Externos",
-                    items: [
-                      "Integração nativa com Vturb / Panda / Vimeo / SoundCloud",
-                      "Aplicativo completo na Apple Store e Play Store",
-                      "Acesso via navegador web"
-                    ]
-                  },
-                  {
-                    title: "Backend Completo",
-                    items: [
-                      "Banco de dados e controle de usuários",
-                      "Painel para subir conteúdos com facilidade",
-                      "Sistema para criar produtos e disparar notificações"
-                    ]
-                  },
-                  {
-                    title: "Notificações Push",
-                    items: [
-                      "App sempre na tela do celular dos usuários",
-                      "Mais vendas e tempo de tela"
-                    ]
-                  },
-                  {
-                    title: "Expansão & Escalabilidade",
-                    items: [
-                      "Desenvolvimento pensado para crescer",
-                      "Pronto para soluções IA e comunidade",
-                      "Suporte a novas tecnologias e inovações"
-                    ]
-                  },
-                  {
-                    title: "Publicação nas Lojas de Aplicativos",
-                    items: [
-                      "Configuração e publicação completa nas lojas oficiais",
-                      "Adequação às políticas da Apple e Google",
-                      "Publicação tranquila e aprovação garantida"
-                    ]
-                  },
-                  {
-                    title: "Vantagens Exclusivas",
-                    items: [
-                      "Aplicação avançada de IA",
+                      "Aplicação avançada de soluções com Inteligência Artificial",
                       "Vendas automáticas guiadas por IA",
-                      "Disparos pelo WhatsApp oficial",
+                      "Disparos via API oficial do WhatsApp",
                       "Funis interativos de alta conversão",
                       "Suporte automatizado 24/7",
                       "Automação de processos"
