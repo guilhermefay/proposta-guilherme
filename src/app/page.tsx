@@ -370,7 +370,7 @@ export default function Home() {
               {/* Card: Fixo Mensal Completo */}
               <PricingCard
                 title="Fixo Mensal Completo"
-                description="Você tem um desenvolvedor focado exclusivamente no seu projeto, com todas as vantagens tecnológicas avançadas."
+                description="Um desenvolvedor experiente focado em desenvolver soluções para aumentar o lucro da sua empresa."
                 price="R$ 9.000"
                 priceLabel="por mês"
                 features={[
