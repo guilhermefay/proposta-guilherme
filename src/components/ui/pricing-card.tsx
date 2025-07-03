@@ -171,7 +171,7 @@ export function PricingCard({
         {/* Layout Desktop */}
         <div className="hidden lg:flex flex-row">
           <motion.div
-            className="flex flex-col justify-between p-6 lg:w-2/5 lg:p-10"
+            className="flex flex-col justify-between p-6 lg:w-2/5 lg:p-10 border-r"
             variants={itemVariants}
           >
             <div>
@@ -189,7 +189,6 @@ export function PricingCard({
             </div>
             <ButtonSection />
           </motion.div>
-          <Separator className="lg:my-6" />
           <motion.div
             className="bg-muted/50 p-6 lg:w-3/5 lg:p-10"
             variants={itemVariants}

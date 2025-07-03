@@ -18,8 +18,8 @@ export default function Home() {
                 Olá! eu sou o Guilherme Fay 👋
               </h2>
               <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-8">
-                Um desenvolvedor experiente focado em aumentar seus lucros e otimizar os seus processos. 
-                Transformo suas ideias em realidade unindo UI/UX refinada, IA aplicada e execução acelerada.
+                            Desenvolvedor experiente focado em resultados. Desenvolvo tecnologias que aumentam o lucro da sua empresa.
+            Transformo suas ideias em realidade, combinando UI/UX refinada, IA aplicada e execução acelerada.
               </p>
               
               <h3 className="text-xl sm:text-2xl font-semibold text-gray-900 mb-4 mt-8 md:mt-12">Sobre</h3>
