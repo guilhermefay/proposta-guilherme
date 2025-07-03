@@ -26,9 +26,9 @@ export function SplineSceneBasic() {
             </p>
           </div>
 
-          {/* Conteúdo da direita - robô 3D grudado na parte inferior */}
-          <div className="flex-1 relative h-full flex items-end">
-            <div className="w-full h-full relative">
+          {/* Conteúdo da direita - robô 3D maior no mobile */}
+          <div className="flex-1 relative h-full min-h-[500px] lg:min-h-full flex items-end">
+            <div className="w-full h-full relative scale-125 lg:scale-100 origin-bottom">
               <SplineScene 
                 scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
                 className="absolute inset-0 w-full h-full object-bottom"

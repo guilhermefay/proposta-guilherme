@@ -305,14 +305,61 @@ export default function Home() {
                 priceLabel="pagamento: 60% na assinatura, 40% na publicação"
                 features={[
                   {
-                    title: "Desenvolvimento Completo",
+                    title: "Identidade Visual & Design System",
                     items: [
-                      "Aplicativo iOS e Android",
-                      "Versão web responsiva",
-                      "Backend e banco de dados",
-                      "Painel administrativo",
-                      "Publicação nas lojas oficiais",
-                      "Documentação técnica"
+                      "UI/UX com paleta de cores harmonizada (light e dark mode)",
+                      "Tipografia adaptada e ícones personalizados",
+                      "Componentes profissionais e acessibilidade WCAG 2.2",
+                      "Interface responsiva e intuitiva",
+                      "Plataforma completa com uso profissional e moderno",
+                      "Agrega valor e diferenciação de mercado"
+                    ]
+                  },
+                  {
+                    title: "Sistema de Vendas e Monetização",
+                    items: [
+                      "Estrutura para venda contínua de produtos digitais",
+                      "Interface estratégica para induzir novas compras",
+                      "Aumento do lifetime value (LTV) dos usuários"
+                    ]
+                  },
+                  {
+                    title: "Integração completa com Players Externos",
+                    items: [
+                      "Integração nativa com Vturb / Panda / Vimeo / SoundCloud",
+                      "Aplicativo completo na Apple Store e Play Store",
+                      "Acesso via navegador web"
+                    ]
+                  },
+                  {
+                    title: "Backend Completo",
+                    items: [
+                      "Banco de dados e controle de usuários",
+                      "Painel para subir conteúdos com facilidade",
+                      "Sistema para criar produtos e disparar notificações"
+                    ]
+                  },
+                  {
+                    title: "Notificações Push",
+                    items: [
+                      "App sempre na tela do celular dos usuários",
+                      "Mais vendas e tempo de tela"
+                    ]
+                  },
+                  {
+                    title: "Expansão & Escalabilidade",
+                    items: [
+                      "Desenvolvimento pensado para crescer",
+                      "Pronto para soluções IA e comunidade",
+                      "Suporte a novas tecnologias e inovações"
+                    ]
+                  },
+                  {
+                    title: "Publicação nas Lojas de Aplicativos",
+                    items: [
+                      "Configuração e publicação completa nas lojas oficiais",
+                      "Adequação às políticas da Apple e Google",
+                      "Publicação tranquila e aprovação garantida"
                     ]
                   }
                 ]}
@@ -327,6 +374,64 @@ export default function Home() {
                 price="R$ 9.000"
                 priceLabel="por mês"
                 features={[
+                  {
+                    title: "Identidade Visual & Design System",
+                    items: [
+                      "UI/UX com paleta de cores harmonizada (light e dark mode)",
+                      "Tipografia adaptada e ícones personalizados",
+                      "Componentes profissionais e acessibilidade WCAG 2.2",
+                      "Interface responsiva e intuitiva",
+                      "Plataforma completa com uso profissional e moderno",
+                      "Agrega valor e diferenciação de mercado"
+                    ]
+                  },
+                  {
+                    title: "Sistema de Vendas e Monetização",
+                    items: [
+                      "Estrutura para venda contínua de produtos digitais",
+                      "Interface estratégica para induzir novas compras",
+                      "Aumento do lifetime value (LTV) dos usuários"
+                    ]
+                  },
+                  {
+                    title: "Integração completa com Players Externos",
+                    items: [
+                      "Integração nativa com Vturb / Panda / Vimeo / SoundCloud",
+                      "Aplicativo completo na Apple Store e Play Store",
+                      "Acesso via navegador web"
+                    ]
+                  },
+                  {
+                    title: "Backend Completo",
+                    items: [
+                      "Banco de dados e controle de usuários",
+                      "Painel para subir conteúdos com facilidade",
+                      "Sistema para criar produtos e disparar notificações"
+                    ]
+                  },
+                  {
+                    title: "Notificações Push",
+                    items: [
+                      "App sempre na tela do celular dos usuários",
+                      "Mais vendas e tempo de tela"
+                    ]
+                  },
+                  {
+                    title: "Expansão & Escalabilidade",
+                    items: [
+                      "Desenvolvimento pensado para crescer",
+                      "Pronto para soluções IA e comunidade",
+                      "Suporte a novas tecnologias e inovações"
+                    ]
+                  },
+                  {
+                    title: "Publicação nas Lojas de Aplicativos",
+                    items: [
+                      "Configuração e publicação completa nas lojas oficiais",
+                      "Adequação às políticas da Apple e Google",
+                      "Publicação tranquila e aprovação garantida"
+                    ]
+                  },
                   {
                     title: "Vantagens Exclusivas",
                     items: [
@@ -361,6 +466,64 @@ export default function Home() {
                 price="R$ 5.000"
                 priceLabel="por mês + % sobre lucro líquido"
                 features={[
+                  {
+                    title: "Identidade Visual & Design System",
+                    items: [
+                      "UI/UX com paleta de cores harmonizada (light e dark mode)",
+                      "Tipografia adaptada e ícones personalizados",
+                      "Componentes profissionais e acessibilidade WCAG 2.2",
+                      "Interface responsiva e intuitiva",
+                      "Plataforma completa com uso profissional e moderno",
+                      "Agrega valor e diferenciação de mercado"
+                    ]
+                  },
+                  {
+                    title: "Sistema de Vendas e Monetização",
+                    items: [
+                      "Estrutura para venda contínua de produtos digitais",
+                      "Interface estratégica para induzir novas compras",
+                      "Aumento do lifetime value (LTV) dos usuários"
+                    ]
+                  },
+                  {
+                    title: "Integração completa com Players Externos",
+                    items: [
+                      "Integração nativa com Vturb / Panda / Vimeo / SoundCloud",
+                      "Aplicativo completo na Apple Store e Play Store",
+                      "Acesso via navegador web"
+                    ]
+                  },
+                  {
+                    title: "Backend Completo",
+                    items: [
+                      "Banco de dados e controle de usuários",
+                      "Painel para subir conteúdos com facilidade",
+                      "Sistema para criar produtos e disparar notificações"
+                    ]
+                  },
+                  {
+                    title: "Notificações Push",
+                    items: [
+                      "App sempre na tela do celular dos usuários",
+                      "Mais vendas e tempo de tela"
+                    ]
+                  },
+                  {
+                    title: "Expansão & Escalabilidade",
+                    items: [
+                      "Desenvolvimento pensado para crescer",
+                      "Pronto para soluções IA e comunidade",
+                      "Suporte a novas tecnologias e inovações"
+                    ]
+                  },
+                  {
+                    title: "Publicação nas Lojas de Aplicativos",
+                    items: [
+                      "Configuração e publicação completa nas lojas oficiais",
+                      "Adequação às políticas da Apple e Google",
+                      "Publicação tranquila e aprovação garantida"
+                    ]
+                  },
                   {
                     title: "Vantagens Exclusivas",
                     items: [
