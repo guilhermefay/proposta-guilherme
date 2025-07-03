@@ -401,6 +401,15 @@ export default function Home() {
                     ]
                   },
                   {
+                    title: "Modelo de Parceria",
+                    items: [
+                      "Investimento mútuo no sucesso",
+                      "Alinhamento total de objetivos",
+                      "Foco em resultados e lucro",
+                      "Relacionamento de longo prazo"
+                    ]
+                  },
+                  {
                     title: "RESUMINDO:",
                     items: ["O que você e sua empresa precisarem para atingir o próximo nível."]
                   }
