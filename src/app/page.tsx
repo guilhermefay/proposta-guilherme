@@ -376,17 +376,10 @@ export default function Home() {
                 features={[
                   {
                     title: "TUDO DO PROJETO FECHADO +",
-                    items: [
-                      "Identidade Visual & Design System completo",
-                      "Sistema de Vendas e Monetização",
-                      "Integração com Players Externos",
-                      "Backend Completo + Notificações Push",
-                      "Expansão & Escalabilidade",
-                      "Publicação nas Lojas de Aplicativos"
-                    ]
+                    items: [""]
                   },
                   {
-                    title: "VANTAGENS EXCLUSIVAS DOS CONTRATOS FIXOS",
+                    title: "O QUE POSSO OFERECER ESTANDO NA SUA EQUIPE:",
                     items: [
                       "Aplicação avançada de soluções com Inteligência Artificial",
                       "Vendas automáticas guiadas por IA",
@@ -406,6 +399,10 @@ export default function Home() {
                       "Consultoria estratégica",
                       "Análise de métricas e otimizações"
                     ]
+                  },
+                  {
+                    title: "RESUMINDO:",
+                    items: ["O que você e sua empresa precisarem para atingir o próximo nível."]
                   }
                 ]}
                 buttonText="Quero na minha equipe"
@@ -421,17 +418,10 @@ export default function Home() {
                 features={[
                   {
                     title: "TUDO DO PROJETO FECHADO +",
-                    items: [
-                      "Identidade Visual & Design System completo",
-                      "Sistema de Vendas e Monetização",
-                      "Integração com Players Externos",
-                      "Backend Completo + Notificações Push",
-                      "Expansão & Escalabilidade",
-                      "Publicação nas Lojas de Aplicativos"
-                    ]
+                    items: [""]
                   },
                   {
-                    title: "VANTAGENS EXCLUSIVAS DOS CONTRATOS FIXOS",
+                    title: "O QUE POSSO OFERECER ESTANDO NA SUA EQUIPE:",
                     items: [
                       "Aplicação avançada de soluções com Inteligência Artificial",
                       "Vendas automáticas guiadas por IA",
@@ -462,6 +452,10 @@ export default function Home() {
                       "Crescimento conjunto",
                       "Retorno proporcional ao sucesso"
                     ]
+                  },
+                  {
+                    title: "RESUMINDO:",
+                    items: ["O que você e sua empresa precisarem para atingir o próximo nível."]
                   }
                 ]}
                 buttonText="Vamos ser parceiros"
