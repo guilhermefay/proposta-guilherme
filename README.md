@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Página de Proposta - Primeira Dobra
 
-## Getting Started
+Uma página de proposta moderna e interativa construída com **Next.js 15**, **TypeScript**, **Tailwind CSS**, **shadcn/ui** e **Spline 3D**.
 
-First, run the development server:
+## ✨ Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- 🎨 **Design Moderno**: Interface escura com gradientes e efeitos visuais
+- 🌟 **Efeito Spotlight**: Animação de foco visual dinâmica
+- 🎯 **Cena 3D Interativa**: Integração com Spline para objetos 3D
+- 📱 **Responsivo**: Funciona perfeitamente em desktop e mobile
+- ⚡ **Performance**: Lazy loading dos componentes 3D
+- 🎭 **Animações Suaves**: Transições e efeitos visuais elegantes
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Next.js 15** - Framework React com App Router
+- **TypeScript** - Tipagem estática
+- **Tailwind CSS** - Estilização utilitária
+- **shadcn/ui** - Componentes UI reutilizáveis
+- **Spline** - Modelagem e renderização 3D
+- **Framer Motion** - Animações avançadas
+
+## 🏗️ Estrutura do Projeto
+
+```
+src/
+├── app/
+│   ├── globals.css          # Estilos globais e animações
+│   ├── layout.tsx           # Layout principal
+│   └── page.tsx             # Página inicial
+├── components/
+│   └── ui/
+│       ├── card.tsx         # Componente Card (shadcn)
+│       ├── demo.tsx         # Componente principal da primeira dobra
+│       ├── splite.tsx       # Wrapper para Spline 3D
+│       └── spotlight.tsx    # Efeito de spotlight animado
+└── lib/
+    └── utils.ts             # Utilitários (cn function)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Como Usar
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. Instalar Dependências
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 2. Executar em Desenvolvimento
+```bash
+npm run dev
+```
 
-## Learn More
+### 3. Acessar a Aplicação
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Componentes Principais
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### SplineSceneBasic (`demo.tsx`)
+- Componente principal da primeira dobra
+- Combina texto promocional com cena 3D
+- Layout responsivo com duas colunas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### SplineScene (`splite.tsx`)
+- Wrapper para componentes Spline 3D
+- Lazy loading para melhor performance
+- Fallback com loader animado
 
-## Deploy on Vercel
+### Spotlight (`spotlight.tsx`)
+- Efeito visual de foco/spotlight
+- Animação CSS personalizada
+- SVG otimizado
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Customização
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Alterar a Cena 3D
+Edite o arquivo `src/components/ui/demo.tsx` e substitua a URL da cena:
+
+```tsx
+<SplineScene 
+  scene="SUA_URL_DO_SPLINE_AQUI"
+  className="w-full h-full"
+/>
+```
+
+### Personalizar Cores e Textos
+- **Textos**: Edite diretamente no componente `demo.tsx`
+- **Cores**: Modificar no `globals.css` ou usar classes Tailwind
+- **Animações**: Ajustar no `globals.css`
+
+## 📱 Responsividade
+
+O projeto é totalmente responsivo com:
+- Layout flexível para diferentes tamanhos de tela
+- Texto adaptativo (text-4xl md:text-5xl)
+- Componentes que se ajustam automaticamente
+
+## 🔧 Comandos Disponíveis
+
+```bash
+npm run dev          # Servidor de desenvolvimento
+npm run build        # Build de produção
+npm run start        # Servidor de produção
+npm run lint         # Verificação de código
+```
+
+## 📝 Próximos Passos
+
+1. ✅ **Primeira Dobra Completa** - Implementada!
+2. 🔄 **Adicionar mais seções** - Expandir a página
+3. 🎨 **Customizar conteúdo** - Adaptar textos e cores
+4. 📊 **Adicionar métricas** - Analytics e tracking
+5. 🚀 **Deploy** - Publicar em produção
+
+---
+
+**Desenvolvido com ❤️ usando as melhores práticas de desenvolvimento web moderno.**
